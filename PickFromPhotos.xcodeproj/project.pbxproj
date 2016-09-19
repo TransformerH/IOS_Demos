@@ -14,6 +14,8 @@
 		7AFBBD521D8EAA9B000DD5DF /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7AFBBD511D8EAA9B000DD5DF /* Assets.xcassets */; };
 		7AFBBD551D8EAA9B000DD5DF /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7AFBBD531D8EAA9B000DD5DF /* LaunchScreen.storyboard */; };
 		7AFBBD601D8EAA9B000DD5DF /* PickFromPhotosUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 7AFBBD5F1D8EAA9B000DD5DF /* PickFromPhotosUITests.m */; };
+		7AFBBD6C1D8EB5A0000DD5DF /* Photos.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7AFBBD6B1D8EB5A0000DD5DF /* Photos.framework */; };
+		7AFBBD6E1D8EBAC0000DD5DF /* AssetsLibrary.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7AFBBD6D1D8EBAC0000DD5DF /* AssetsLibrary.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -40,6 +42,8 @@
 		7AFBBD5B1D8EAA9B000DD5DF /* PickFromPhotosUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PickFromPhotosUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		7AFBBD5F1D8EAA9B000DD5DF /* PickFromPhotosUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PickFromPhotosUITests.m; sourceTree = "<group>"; };
 		7AFBBD611D8EAA9B000DD5DF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		7AFBBD6B1D8EB5A0000DD5DF /* Photos.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Photos.framework; path = System/Library/Frameworks/Photos.framework; sourceTree = SDKROOT; };
+		7AFBBD6D1D8EBAC0000DD5DF /* AssetsLibrary.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AssetsLibrary.framework; path = System/Library/Frameworks/AssetsLibrary.framework; sourceTree = SDKROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -47,6 +51,8 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				7AFBBD6E1D8EBAC0000DD5DF /* AssetsLibrary.framework in Frameworks */,
+				7AFBBD6C1D8EB5A0000DD5DF /* Photos.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -66,6 +72,7 @@
 				7AFBBD441D8EAA9B000DD5DF /* PickFromPhotos */,
 				7AFBBD5E1D8EAA9B000DD5DF /* PickFromPhotosUITests */,
 				7AFBBD431D8EAA9B000DD5DF /* Products */,
+				7AFBBD6A1D8EB5A0000DD5DF /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -109,6 +116,15 @@
 				7AFBBD611D8EAA9B000DD5DF /* Info.plist */,
 			);
 			path = PickFromPhotosUITests;
+			sourceTree = "<group>";
+		};
+		7AFBBD6A1D8EB5A0000DD5DF /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				7AFBBD6D1D8EBAC0000DD5DF /* AssetsLibrary.framework */,
+				7AFBBD6B1D8EB5A0000DD5DF /* Photos.framework */,
+			);
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -414,6 +430,7 @@
 				7AFBBD661D8EAA9B000DD5DF /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		7AFBBD671D8EAA9B000DD5DF /* Build configuration list for PBXNativeTarget "PickFromPhotosUITests" */ = {
 			isa = XCConfigurationList;
@@ -422,6 +439,7 @@
 				7AFBBD691D8EAA9B000DD5DF /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
