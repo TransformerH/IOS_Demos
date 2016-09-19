@@ -9,11 +9,11 @@
 /* Begin PBXBuildFile section */
 		7A0619521D8FD6540095290D /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 7A0619511D8FD6540095290D /* main.m */; };
 		7A0619551D8FD6540095290D /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 7A0619541D8FD6540095290D /* AppDelegate.m */; };
-		7A0619581D8FD6540095290D /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7A0619571D8FD6540095290D /* ViewController.m */; };
 		7A06195B1D8FD6540095290D /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7A0619591D8FD6540095290D /* Main.storyboard */; };
 		7A06195D1D8FD6540095290D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7A06195C1D8FD6540095290D /* Assets.xcassets */; };
 		7A0619601D8FD6540095290D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7A06195E1D8FD6540095290D /* LaunchScreen.storyboard */; };
 		7A06196B1D8FD6550095290D /* GetFromPhotosUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 7A06196A1D8FD6550095290D /* GetFromPhotosUITests.m */; };
+		7A2EAA9E1D8FE8AD005CA6BD /* PickFromPhotoVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 7A2EAA9D1D8FE8AD005CA6BD /* PickFromPhotoVC.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -31,8 +31,6 @@
 		7A0619511D8FD6540095290D /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		7A0619531D8FD6540095290D /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		7A0619541D8FD6540095290D /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		7A0619561D8FD6540095290D /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		7A0619571D8FD6540095290D /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
 		7A06195A1D8FD6540095290D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		7A06195C1D8FD6540095290D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		7A06195F1D8FD6540095290D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -40,6 +38,8 @@
 		7A0619661D8FD6540095290D /* GetFromPhotosUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = GetFromPhotosUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		7A06196A1D8FD6550095290D /* GetFromPhotosUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GetFromPhotosUITests.m; sourceTree = "<group>"; };
 		7A06196C1D8FD6550095290D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		7A2EAA9C1D8FE8AD005CA6BD /* PickFromPhotoVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PickFromPhotoVC.h; sourceTree = "<group>"; };
+		7A2EAA9D1D8FE8AD005CA6BD /* PickFromPhotoVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PickFromPhotoVC.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -83,8 +83,8 @@
 			children = (
 				7A0619531D8FD6540095290D /* AppDelegate.h */,
 				7A0619541D8FD6540095290D /* AppDelegate.m */,
-				7A0619561D8FD6540095290D /* ViewController.h */,
-				7A0619571D8FD6540095290D /* ViewController.m */,
+				7A2EAA9C1D8FE8AD005CA6BD /* PickFromPhotoVC.h */,
+				7A2EAA9D1D8FE8AD005CA6BD /* PickFromPhotoVC.m */,
 				7A0619591D8FD6540095290D /* Main.storyboard */,
 				7A06195C1D8FD6540095290D /* Assets.xcassets */,
 				7A06195E1D8FD6540095290D /* LaunchScreen.storyboard */,
@@ -215,7 +215,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				7A0619581D8FD6540095290D /* ViewController.m in Sources */,
+				7A2EAA9E1D8FE8AD005CA6BD /* PickFromPhotoVC.m in Sources */,
 				7A0619551D8FD6540095290D /* AppDelegate.m in Sources */,
 				7A0619521D8FD6540095290D /* main.m in Sources */,
 			);
@@ -414,6 +414,7 @@
 				7A0619711D8FD6550095290D /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		7A0619721D8FD6550095290D /* Build configuration list for PBXNativeTarget "GetFromPhotosUITests" */ = {
 			isa = XCConfigurationList;
@@ -422,6 +423,7 @@
 				7A0619741D8FD6550095290D /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
