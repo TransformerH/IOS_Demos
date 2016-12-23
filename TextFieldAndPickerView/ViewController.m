@@ -7,8 +7,11 @@
 //
 
 #import "ViewController.h"
+#import "ShowPickerViewTF.h"
 
 @interface ViewController ()
+
+@property (weak, nonatomic) IBOutlet ShowPickerViewTF *textView;
 
 @end
 
@@ -16,6 +19,8 @@
 
 - (void)viewDidLoad {
     [super viewDidLoad];
+    self.textView.arrayOne = @[@"Sheryl",@"Xiao",@"CS"];
+    self.textView.arrayTwo = @[@"UCB",@"NYC",@"CMU"];
     // Do any additional setup after loading the view, typically from a nib.
 }
 

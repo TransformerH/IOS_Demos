@@ -14,6 +14,7 @@
 		7AEEAC771E0C185000B7E996 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7AEEAC761E0C185000B7E996 /* Assets.xcassets */; };
 		7AEEAC7A1E0C185000B7E996 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7AEEAC781E0C185000B7E996 /* LaunchScreen.storyboard */; };
 		7AEEAC851E0C185000B7E996 /* TextFieldAndPickerViewUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 7AEEAC841E0C185000B7E996 /* TextFieldAndPickerViewUITests.m */; };
+		7AEEAC911E0C1A2E00B7E996 /* ShowPickerViewTF.m in Sources */ = {isa = PBXBuildFile; fileRef = 7AEEAC901E0C1A2E00B7E996 /* ShowPickerViewTF.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -40,6 +41,8 @@
 		7AEEAC801E0C185000B7E996 /* TextFieldAndPickerViewUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TextFieldAndPickerViewUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		7AEEAC841E0C185000B7E996 /* TextFieldAndPickerViewUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TextFieldAndPickerViewUITests.m; sourceTree = "<group>"; };
 		7AEEAC861E0C185000B7E996 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		7AEEAC8F1E0C1A2E00B7E996 /* ShowPickerViewTF.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ShowPickerViewTF.h; sourceTree = "<group>"; };
+		7AEEAC901E0C1A2E00B7E996 /* ShowPickerViewTF.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ShowPickerViewTF.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -90,6 +93,8 @@
 				7AEEAC781E0C185000B7E996 /* LaunchScreen.storyboard */,
 				7AEEAC7B1E0C185000B7E996 /* Info.plist */,
 				7AEEAC6A1E0C185000B7E996 /* Supporting Files */,
+				7AEEAC8F1E0C1A2E00B7E996 /* ShowPickerViewTF.h */,
+				7AEEAC901E0C1A2E00B7E996 /* ShowPickerViewTF.m */,
 			);
 			path = TextFieldAndPickerView;
 			sourceTree = "<group>";
@@ -216,6 +221,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				7AEEAC721E0C185000B7E996 /* ViewController.m in Sources */,
+				7AEEAC911E0C1A2E00B7E996 /* ShowPickerViewTF.m in Sources */,
 				7AEEAC6F1E0C185000B7E996 /* AppDelegate.m in Sources */,
 				7AEEAC6C1E0C185000B7E996 /* main.m in Sources */,
 			);
