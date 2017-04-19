@@ -14,6 +14,7 @@
 		7A3D29221E9BE269004BB08C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7A3D29211E9BE269004BB08C /* Assets.xcassets */; };
 		7A3D29251E9BE269004BB08C /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7A3D29231E9BE269004BB08C /* LaunchScreen.storyboard */; };
 		7A3D29301E9BE26A004BB08C /* KeyBoardUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 7A3D292F1E9BE26A004BB08C /* KeyBoardUITests.m */; };
+		7A3D293C1E9BE434004BB08C /* InputViewTC.m in Sources */ = {isa = PBXBuildFile; fileRef = 7A3D293B1E9BE434004BB08C /* InputViewTC.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -40,6 +41,8 @@
 		7A3D292B1E9BE26A004BB08C /* KeyBoardUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = KeyBoardUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		7A3D292F1E9BE26A004BB08C /* KeyBoardUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = KeyBoardUITests.m; sourceTree = "<group>"; };
 		7A3D29311E9BE26A004BB08C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		7A3D293A1E9BE434004BB08C /* InputViewTC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = InputViewTC.h; sourceTree = "<group>"; };
+		7A3D293B1E9BE434004BB08C /* InputViewTC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = InputViewTC.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -90,6 +93,8 @@
 				7A3D29231E9BE269004BB08C /* LaunchScreen.storyboard */,
 				7A3D29261E9BE269004BB08C /* Info.plist */,
 				7A3D29151E9BE269004BB08C /* Supporting Files */,
+				7A3D293A1E9BE434004BB08C /* InputViewTC.h */,
+				7A3D293B1E9BE434004BB08C /* InputViewTC.m */,
 			);
 			path = KeyBoard;
 			sourceTree = "<group>";
@@ -217,6 +222,7 @@
 			files = (
 				7A3D291D1E9BE269004BB08C /* ViewController.m in Sources */,
 				7A3D291A1E9BE269004BB08C /* AppDelegate.m in Sources */,
+				7A3D293C1E9BE434004BB08C /* InputViewTC.m in Sources */,
 				7A3D29171E9BE269004BB08C /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
